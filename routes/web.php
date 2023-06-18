@@ -13,10 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-/* Route::get('/parceiros', function () {
-    return view('partners');
-});
-*/
+use App\Http\Controllers\PartnerController;
+
+Route::get('/parceiros', [PartnerController::class, 'index']);
+
 
 Route::get('/', function(){
     return view('partners');
