@@ -1,7 +1,11 @@
 @extends('layouts.main')
 
 @section('title', 'Parceiros Plansul')
+@section('styles')
 
+@endsection('styles')
 @section('content')
-<h1></h1>
+<div class="content">
+    <h1>parceiros</h1>
+</div>
 @endsection('content')
